@@ -1,6 +1,7 @@
 ﻿using ApiSample.Models;
 using ApiSample.Repository;
 using FluentAssertions;
+using IntegrationTests;
 using IntegrationTests.Base;
 using System.Text.Json;
 

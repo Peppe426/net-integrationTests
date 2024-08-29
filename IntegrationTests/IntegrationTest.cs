@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using IntegrationTests.Base;
+using Microsoft.EntityFrameworkCore;
 
-namespace IntegrationTests.Base;
+namespace IntegrationTests;
 
 /// <summary>
 /// Initializes a new instance of the <see cref="IntegrationTest{TEntryPoint, TContext}"/> class.

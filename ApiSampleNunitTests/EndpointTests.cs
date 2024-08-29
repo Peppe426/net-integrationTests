@@ -1,4 +1,5 @@
 ﻿using ApiSample.Models;
+using IntegrationTests;
 using IntegrationTests.Base;
 using Microsoft.EntityFrameworkCore;
 namespace ApiSampleNunitTests;
