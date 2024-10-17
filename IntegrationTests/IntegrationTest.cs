@@ -1,4 +1,5 @@
-﻿using IntegrationTests.Base;
+﻿using Base;
+using IntegrationTests.Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace IntegrationTests;

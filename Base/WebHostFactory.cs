@@ -4,6 +4,8 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
+namespace Base;
+
 public class WebHostFactory<TEntryPoint, TContext> : WebApplicationFactory<TEntryPoint>
     where TEntryPoint : class
     where TContext : DbContext? // Allow TContext to be null
